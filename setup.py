@@ -1,0 +1,11 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='suikawari',
+    version="0.0.1",
+    packages=find_packages(), 
+    description='スイカ割りのゲームです',
+    url='https://github.com/tamako1025h/suikawari',
+    author='tamako',
+    author_email='tamakoDev@gmail.com',
+)
