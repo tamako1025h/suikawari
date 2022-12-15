@@ -4,10 +4,14 @@ import random
 import math
 import os
 
-cur_dir = os.getcwd()
+project_root = os.path.dirname(os.path.abspath(__file__))
+image_dir = os.path.join(project_root, "image")
 
-CHARACTER_IMG_PATH = str(cur_dir) + "\suikawari\image\suikawari.png"
-SUIKA_IMG_PATH = str(cur_dir) + "\suikawari\image\suika.png"
+suika_path = os.path.join(image_dir, "suika.png")
+sukawari_path = os.path.join(image_dir,"suikawari.png")
+
+CHARACTER_IMG_PATH = sukawari_path
+SUIKA_IMG_PATH = suika_path
 GAME_COUNT = 0
 
 """スイカの座標を生成"""
