@@ -4,6 +4,7 @@ import random
 import math
 import os
 
+"""ファイルパスを指定"""
 project_root = os.path.dirname(os.path.abspath(__file__))
 image_dir = os.path.join(project_root, "image")
 
