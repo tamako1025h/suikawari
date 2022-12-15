@@ -8,6 +8,7 @@ setup(
     url='https://github.com/tamako1025h/suikawari',
     author='tamako',
     author_email='tamakoDev@gmail.com',
+    packages = ["suikawari", "suikawari.image"],
     entry_points = {
         'console_scripts': ['suikawari = suikawari.main:main']
     }
