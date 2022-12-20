@@ -13,3 +13,5 @@ suikawari
 ```
 pip uninstall suikawari
 ```
+## こんなかんじ
+![gameimg](https://user-images.githubusercontent.com/117996152/208568848-0ece0229-db11-4067-aae9-1d0ce350c569.png)
