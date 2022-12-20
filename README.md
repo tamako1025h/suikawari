@@ -1,5 +1,5 @@
 ## Tkinterでスイカ割りのゲームを作りました。
-pythonとgithubアップの勉強用に作りました<br>
+pythonとgithubにアップロードする勉強用に作りました<br>
 ## 遊び方
 1.pipでインストール
 ```
