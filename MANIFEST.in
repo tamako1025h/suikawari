@@ -1,1 +1,1 @@
-include suikawari/image/*
+recursive-include suikawari *
